@@ -1,4 +1,4 @@
-const { User , Thought } = require("../models");
+const { User } = require("../models");
 
 const userController = {
 	//get all Users
@@ -40,7 +40,7 @@ const userController = {
 	},
 
 	//update user by id
-	updateUser({ body }, res) {
+	updateUser({ params, body }, res) {
 		//runValidators on an update explicitly tells app to validate new info that is being updated
 		User.findOneAndUpdate({ _id: params.id }, body, {
 			new: true,
