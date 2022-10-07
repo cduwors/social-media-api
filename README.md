@@ -2,7 +2,7 @@
 
 ## Description
 
-This is a basic MVC back end for a social media API. It is build utilizing Express.js, MongoDB, and Mongoose ODM. The application functionality is as follows:
+This is a basic MVC back end for a social media API. It is built utilizing `Express.js`, `MongoDB`, and `Mongoose`. The application functionality is as follows:
 
 GIVEN a social network API
 
@@ -22,7 +22,7 @@ WHEN I test API POST and DELETE routes in Insomnia
 
 THEN I am able to successfully create and delete reactions to thoughts and add and remove friends to a user’s friend list
 
-View live demo here https://drive.google.com/file/d/1AQkL91HQhI_5BStJnevqEf3TaeI19mS1/view .
+View live demo here Live Demo: https://drive.google.com/file/d/117nYU-muhusLgFn7SUXRUPwNWH1cQVwC/view .
 
 ## Table of Contents
 
@@ -50,7 +50,7 @@ SO THAT my website can handle large amounts of unstructured data
 
 ## Issues
 
-N/A
+The friending capability still needs to be developed.
 
 ## License
 
@@ -71,6 +71,6 @@ GitHub Repository: https://github.com/cduwors/social-media-api
 
 ## Images
 
-Input Sample
+Insomnia input sample
 
-<img src= "./img/employee-tracker.png"/>
+<img src= "public/images/sm-api.png"/>
